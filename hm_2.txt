@@ -21,11 +21,11 @@ cat >> tf_3.txt
 - the fourth 4
 - the fifth 5
 {press CTRL+C}
- 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” -- cat > tf_3.txt 
- 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2” -- cat > tf_3.txt
- 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” -- cat > ../tf_2.txt
- 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” -- cat > tf_3.txt
- 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” -- cat > ../tf_2.txt
+ 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2” -- cat >> tf_3.txt 
+ 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2” -- cat >> tf_3.txt
+ 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” -- cat >> ../tf_2.txt
+ 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2” -- cat >> tf_3.txt
+ 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2” -- cat >> ../tf_2.txt
  14. Сделать текстовый файл tf_4.txt в котором будет 15 строк -- seq 14 |xargs -Iz echo ''>> tf_4.txt
  15. Сделать текстовый файл tF_5.txt в котором будет 13 строк -- seq 12 |xargs -Iz echo ''>> tf_5.txt
  16. Вывести список всех файлов в папке -- ls -la
